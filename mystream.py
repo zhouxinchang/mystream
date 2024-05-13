@@ -1,7 +1,7 @@
 import streamlit as st
 st.title('hello world')
 
- st.markdown('> Streamlit 支持通过 st.markdown 直接渲染 markdown')
+st.markdown('> Streamlit 支持通过 st.markdown 直接渲染 markdown')
 
 code = '''def hello():
     print("Hello, Streamlit!")'''
